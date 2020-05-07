@@ -1,0 +1,4 @@
+Various lists of movies
+    - By Genre etc?
+    - Click on a movie to see more details about it
+    
