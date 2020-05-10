@@ -37,7 +37,9 @@ class App extends React.Component {
   showMoviePoster(movie) {
     return <div className="MovieCard">
             <img src={'https://image.tmdb.org/t/p/w220_and_h330_face' + movie.poster_path} />
-      <p>{movie.title} ({movie.vote_average})</p>
+      <div className="MovieTitle">
+      <p>{movie.title}</p></div>
+      <p><h6>RWDB Rating : {movie.vote_average}</h6></p>
       <p><PopUp description={movie.overview} id={"PopUp" + movie.id} /></p>
             </div>
   };

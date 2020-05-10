@@ -1,6 +1,6 @@
 .Banner {
   text-align: left;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, 'Arial Narrow Bold', sans-serif;
   color: black;
   background-color: pink;
   width: 3em;
@@ -8,8 +8,30 @@
   padding-right: 0.01em;
   margin: 0.1em;
   border-radius: 0.1em;
+  margin-bottom: .5em;
 }
 
+H2 {
+  text-align: center;
+  font-family: Impact, 'Arial Narrow', sans-serif;
+  color: black;
+  background-color: lightpink;
+  padding: 0.2em;
+  padding-right: 0.01em;
+  margin: 0.1em;
+  border-radius: 0.1em;
+}
+
+H6 {
+  font-style: italic;
+  color: beige;
+}
+
+.MovieTitle {
+  font-family:'Arial Narrow', sans-serif;
+  font-size: 1.1em;
+  font-weight: bold;
+}
 
 .App {
   text-align: center;
@@ -85,4 +107,5 @@
   font-weight: 500;
   font-size: 1.2em;
   box-shadow: 5px 5px 10px pink;
+  margin-bottom: .5rem
 }
