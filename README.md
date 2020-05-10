@@ -1,3 +1,9 @@
+## Note: This is a React project that pulls movies from an API. The results were limted to movies that have at least 100 user reviews and an average rating of 4.0/5.0. 
+
+
+## Further Note: This was originally a small group project with 4 other new software developers. After wrapping up the basic cooperative portion of this project, I adjusted: The formatting, color scheme, line spacing, fonts & font sizing. Additionally, I added additional classes in order to format specific items within .MovieCard.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
